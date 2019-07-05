@@ -119,27 +119,27 @@ void loop()
             morse.dot();morse.dot();morse.dot();morse.dash();
             delay(250*3);
             break;
-     case 82:
+     case 86:
              //W
             morse.dot();morse.dash();morse.dash();
             delay(250*3);
             break;
-    case 83:
+    case 87:
            //X
             morse.dash();morse.dot();morse.dot();morse.dash();
             delay(250*3);
             break;
-    case 84:
+    case 88:
              //Y
             pmorse.dash();morse.dot();morse.dash();morse.dash();
             delay(250*3);
             break;
-    case 85:
+    case 89:
             //Z
             morse.dash();morse.dot();pmorse.dash();morse.dot();
             delay(250*3);
             break;
-    case 32://空格
+    case 90://空格
             delay(250*3)
             break;
     default
